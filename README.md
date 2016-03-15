@@ -7,7 +7,7 @@ Check out our [story and analysis here](http://www.wnyc.org/story/nyc-charter-sc
 * `dbn`: school's District Borough Number, school code
 * `schoolName`: name of school
 * `network`: charter network, if any
-* `district`: geographic school district
+* `district`: geographic school district, for schools that open as of the 2015-16 school year
 
   ### for each group of grades [`K-4`, `6-7`, `9-11`]:
   * `[grades]discharge`: number of students in specified grades, who didn’t leave “same day” or in the first week of September after being admitted, transferring out of the school
