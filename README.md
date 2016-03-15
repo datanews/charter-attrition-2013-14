@@ -16,3 +16,11 @@ Check out our [story and analysis here](http://www.wnyc.org/story/nyc-charter-sc
   * `[grades]adjustedEnrollment`: [grades]enrollment + [grades]julyOct
   * `[grades]attritionRate`: [grades]discharge / [grades]adjustedEnrollment
   * `[grades]district`: attrition rate at traditional public schools in the same district, for the same grades
+
+###Methodology
+
+We counted attrition as the number of students discharged from every school from July 2013 through June 2014, excluding students who enrolled for the fall and left over the summer or during the first week of September. We compared this to the sum of the students enrolled as of October 31, 2013 and the number of students who transferred before November (our `adjustedEnrollment` number).
+
+We used the same methodology to calculate average attrition rates for traditional public schools in each district.
+
+We left out all data for grades five, eight and 12 because these are natural "graduating" years, and it would have been too difficult to distinguish kids who stopped attending their schools because they had completed their studies.
